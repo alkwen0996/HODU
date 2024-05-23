@@ -12,13 +12,13 @@ body {
 }
 
 .HODU_Logo {
-  margin: 31px 0px 31px 198px;
+  margin: 31px 198px;
 }
 
 .menu {
   display: flex;
   list-style-type: none;
-  margin: 31px 479px;
+  margin: 31px 281px;
 }
 
 .menu li {

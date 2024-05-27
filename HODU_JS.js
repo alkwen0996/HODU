@@ -30,10 +30,35 @@ moveScroll.addEventListener('click', function () {
   });
 });
 
+const listPicture = document.querySelector('.main-image-context-container');
+const showMoreImages = document.querySelector('.add-image-button');
+let pageCount = 1;
+
+showMoreImages.addEventListener('click', async function () {
+  const response = await fetch(`https://cataas.com/api/cats?skip=${pageCount}&limit=3`);
+  pageCount += 3;
+  const jsonData = await response.json();
+
+  jsonData.forEach((data) => {
+    const listItem = document.createElement('li');
+    const img = document.createElement('img');
+
+    listItem.appendChild(img);
+    listPicture.appendChild(listItem);
+
+    const tempImage = document.createElement('img');
+    tempImage.src = `https://cataas.com/cat?_id=${data._id}`
+
+    tempImage.onload = () => {
+      img.src = tempImage.src;
+      img.className = 'cat-image-line';
+    }
+  });
+});
+
 const defaultScroll = document.querySelector('.default-scroll');
 
 document.addEventListener('scroll', function () {
-  const totalHeight = document.documentElement.scrollHeight;
   const scrollHeight = window.scrollY;
 
   if (scrollHeight === 0) {

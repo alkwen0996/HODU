@@ -12,9 +12,7 @@
 <body>
   <header>
     <nav class="menu-nav-bar">
-      <div class="logo-area">
-        <img src="img/Logo-fin.png" alt="HODU Logo" class="HODU-Logo">
-      </div>
+      <img src="img/Logo-fin.png" alt="HODU Logo" class="HODU-Logo">
 
       <ul class="menu-list">
         <li>Home</li>
@@ -89,8 +87,9 @@
       </section>
 
       <!-- 지도를 표시할 div 입니다 -->
-      <div id="map"></div>
+      <div id="map">
 
+      </div>
       <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5f8f38aeb2f9713a7e0ae59be415cc33">
       </script>
       <script>
@@ -104,9 +103,21 @@
         var map = new kakao.maps.Map(mapContainer, mapOption);
       </script>
     </article>
-
   </main>
-  <footer></footer>
+  <footer class="bottom-container">
+    <img src="img/cat_img_bottom.png" alt="" class="bottom-cat-image">
+
+    <nav class="menu-nav-bar">
+      <img src="img/Logo-fin.png" alt="HODU Logo" class="HODU-Logo">
+
+      <ul class="menu-list">
+        <li><img src="img/icon-blog.png" alt=""></li>
+        <li><img src="img/icon-insta.png" alt=""></li>
+        <li><img src="img/icon-facebook.png" alt=""></li>
+        <li><img src="img/icon-youtube.png" alt=""></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 
 </html>

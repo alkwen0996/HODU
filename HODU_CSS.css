@@ -32,6 +32,15 @@ header {
   list-style-type: none;
 }
 
+.menu-list li a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 button {
   background-color: #D97652;
   border-radius: 40px;

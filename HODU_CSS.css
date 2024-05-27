@@ -1,29 +1,35 @@
-.container {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-container {
   background-color: #F2E9D8;
-  height: 900px;
 }
 
-body {
-  margin: 0px;
-}
-
-.top_nav_bar {
+.menu-area {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 12%;
 }
 
-.HODU_Logo {
-  margin: 31px 198px;
+.menu-area ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.menu {
+.menu-area ul li {
+  padding: 1rem;
+}
+
+.logo-area {
+  display: flex;
+}
+
+.menus {
   display: flex;
   list-style-type: none;
-  margin: 31px 281px;
-}
-
-.menu li {
-  padding: 15px;
 }
 
 button {
@@ -40,37 +46,56 @@ button {
   margin-left: 32px;
 }
 
-articles {
+article {
   display: flex;
   flex-direction: row;
-}
-
-.context-container {
-  margin-left: 185px;
-  margin-top: 168px;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
+h2,
 p {
   white-space: pre-line;
 }
 
-h1 {
+.top-container-title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
-p {
-  margin-top: 44px;
-  font-size: 16px;
+.container-context {
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 .cont-down_btn {
   margin-top: 40px;
 }
 
-.box_cat {
-  width: 396px;
-  height: 750px;
-  margin-left: 98px;
+.box-cat {
+  width: 28%;
+  height: 45%;
+  margin-left: 8rem;
+}
+
+.bed-cat {
+  width: 42%;
+  height: 44vh;
+  border-radius: 30px;
+}
+
+.main-top-container {
+  margin-top: 6rem;
+}
+
+.main-top-context-container {
+  vertical-align: center;
+  text-align: justify;
+  margin-left: 3rem;
+}
+
+.main-top-container-title {
+  font-weight: 700;
+  font-size: 2rem;
 }

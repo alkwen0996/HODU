@@ -39,6 +39,7 @@ button {
   border: none;
   width: 140px;
   height: 50px;
+  cursor: pointer;
 }
 
 .nav-download-btn {
@@ -167,7 +168,6 @@ hr {
 }
 
 #map {
-
   height: 350px;
   border-radius: 12px;
 }
@@ -241,4 +241,66 @@ hr {
   width: 12rem;
   height: 50px;
   margin-left: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-popup {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 30%;
+  height: 40vh;
+
+  padding: 40px;
+
+  text-align: center;
+  align-items: center;
+
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 20px;
+  background-image: url("img/modal-background.png");
+}
+
+.modal-popup h2 {
+  margin-top: 2rem;
+  color: #D97652;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.modal-popup p {
+  margin-top: 1rem;
+}
+
+.modal-popup button {
+  margin-top: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 10vh;
+  right: 5%;
+  cursor: pointer;
+}
+
+.using-scroll {
+  display: none;
 }

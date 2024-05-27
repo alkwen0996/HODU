@@ -149,6 +149,7 @@ p {
 
 .main-image-context-container li img {
   width: 75%;
+  height: 35vh;
 }
 
 .main-image-container {

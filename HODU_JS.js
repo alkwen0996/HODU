@@ -33,7 +33,6 @@ moveScroll.addEventListener('click', function () {
 const defaultScroll = document.querySelector('.default-scroll');
 
 document.addEventListener('scroll', function () {
-  const totalHeight = document.documentElement.scrollHeight;
   const scrollHeight = window.scrollY;
 
   if (scrollHeight === 0) {

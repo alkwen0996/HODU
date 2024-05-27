@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F2E9D8;
+}
+
+.menu-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 12%;
+}
+
+.menu-nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-nav-bar ul li {
+  padding: 1rem;
+}
+
+.logo-area {
+  display: flex;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+button {
+  background-color: #D97652;
+  border-radius: 40px;
+  color: white;
+  border: none;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.nav-download-btn {
+  padding: 15px 31px;
+  margin-left: 32px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-context-container {
+  margin-top: 10rem;
+}
+
+h1,
+h2,
+p {
+  white-space: pre-line;
+}
+
+.header-container-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.container-context {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.cont-down_btn {
+  margin-top: 40px;
+}
+
+.box-cat {
+  width: 28%;
+  height: 45%;
+  margin-left: 8rem;
+}
+
+.bed-cat {
+  width: 42%;
+  height: 44vh;
+  border-radius: 30px;
+}
+
+.main-top-container {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-top-context-container {
+  vertical-align: center;
+  text-align: justify;
+  margin-left: 3rem;
+}
+
+.main-top-container-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-middle-container {
+  padding-top: 5rem;
+}
+
+.main-middle-context-container {
+  text-align: center;
+  align-items: center;
+}
+
+.main-middle-context-title {
+  color: #D97652;
+  font-size: 2rem;
+}
+
+.main-image-context-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image-container {
+  padding-top: 3rem;
+}
+
+.cat-image-line {
+  width: 23%;
+  border-radius: 30px;
+  padding: 1rem;
+  height: 37vh;
+}
+
+.main-image-bottom-container {
+  text-align: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.add-image-button {
+  margin-top: 2rem;
+}
+
+hr {
+  color: #C4C4C4;
+  width: 100%;
+}
+
+/* 지도 관련 CSS */
+.main-map-container {
+  width: 78%;
+  /* height: 45vh; */
+  margin: 3rem auto;
+  box-sizing: border-box;
+}
+
+.map-header-container {
+  margin-top: 4rem;
+}
+
+#map {
+  height: 350px;
+  border-radius: 12px;
+}
+
+.main-middle-context-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-map-container-text {
+  color: #606367;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.bottom-cat-image {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  /* 비율은 유지하면서 범위안에 꽉 차도록 설정 */
+}
+
+.email-form-label {
+  background-color: #263140;
+  width: 100%;
+  height: 20vh;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.email-form-guide {
+  margin-left: 3rem;
+}
+
+.blog-post-container-title {
+  color: white;
+}
+
+.blog-post-container-text {
+  color: white;
+  font-size: x-small;
+}
+
+.email-input-form {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 80px;
+  padding: 0.3rem 0.6rem;
+  margin-right: 3rem;
+}
+
+.email-input-form input {
+  border-style: none;
+  width: 60%;
+  font-size: 15px;
+  margin: 0 0.5rem;
+}
+
+.email-input-form img {
+  margin: 0 0.5rem;
+}
+
+
+.subscribe-button {
+  width: 12rem;
+  height: 50px;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal-popup {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 30%;
+  height: 40vh;
+
+  padding: 40px;
+
+  text-align: center;
+  align-items: center;
+
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 20px;
+  background-image: url("img/modal-background.png");
+}
+
+.modal-popup h2 {
+  margin-top: 2rem;
+  color: #D97652;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.modal-popup p {
+  margin-top: 1rem;
+}
+
+.modal-popup button {
+  margin-top: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 10vh;
+  right: 5%;
+  cursor: pointer;
+}
+
+.using-scroll {
+  display: none;
+}

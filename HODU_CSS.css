@@ -131,11 +131,24 @@ p {
   font-size: 2rem;
 }
 
-.main-image-context-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.main-image-container {
+  width: 80%;
+  text-align: center;
   align-items: center;
+  margin: 0 auto;
+}
+
+.main-image-context-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.main-image-context-container li {
+  list-style: none;
+}
+
+.main-image-context-container li img {
+  width: 75%;
 }
 
 .main-image-container {
@@ -143,10 +156,8 @@ p {
 }
 
 .cat-image-line {
-  width: 23%;
   border-radius: 30px;
   padding: 1rem;
-  height: 37vh;
 }
 
 .main-image-bottom-container {

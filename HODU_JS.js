@@ -1,3 +1,13 @@
+function alertDownload() {
+  alert('이미지 다운로드!');
+}
+
+const navDownloadButton = document.querySelector('.nav-download-btn');
+navDownloadButton.addEventListener('click', alertDownload);
+
+const contentDownloadButton = document.querySelector('.cont-down_btn');
+contentDownloadButton.addEventListener('click', alertDownload);
+
 const mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 
   mapOption = {

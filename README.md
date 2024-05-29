@@ -4,15 +4,31 @@ Front-End mini project <br>
 ## 프로젝트 소개
 HTML, CSS, JavaScript 기술을 학습하고 이를 기반으로 제작한 프로젝트입니다.
 
-## 주요 사용 기술
-- <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white"/>
-- <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white"/>
-- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
+## 개발환경
+- 개발언어: HTML, CSS, JavaScript
+- 개발환경: Visual Studio Code
+
+## 요구사항 명세
+### 필수 구현
+- HTML, CSS 를 이용한 레이아웃 구현
+- JS 기능과 관련있는 부분은 Show more 버튼을 클릭했을 때의 추가적인 이미지 렌더링
+- 지도 구현 부분 (kakao map api 사용 예정)
+- Subscribe 바튼 클릭 시 고양이 모달 렌더링
+
+### 추가 구현
+- 반응형 레이아웃
+- 필요에 의해 디자인, 레이아웃 변경 가능
 
 ## 프로젝트 주요 구현 상세내용
+### 동작 기능 구현
 - [X] 동적으로 이미지 불러오는 더보기 기능
 - [X] Kakao map api를 활용한 지도 기능
 - [X] 페이지 맨위로 이동 버튼 기능
 - [X] 팝업 창 띄우기 기능 구현
 - [ ] 이메일 유효성 검사
+
+### 배포
 - [X] 페이지 배포
+
+## 구현 화면 및 기능
+

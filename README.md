@@ -25,10 +25,17 @@ HTML, CSS, JavaScript 기술을 학습하고 이를 기반으로 제작한 프�
 - [X] Kakao map api를 활용한 지도 기능
 - [X] 페이지 맨위로 이동 버튼 기능
 - [X] 팝업 창 띄우기 기능 구현
-- [ ] 이메일 유효성 검사
 
 ### 배포
 - [X] 페이지 배포
 
 ## 구현 화면 및 기능
+### 화면 최상단 이동 버튼
+<img src="img/scroll.gif" />
+
+### 이미지 더보기
+<img src="img/ShowMoreImage.gif" />
+
+### 구독신청 이메일 입력 및 팝업 열고닫기
+<img src="img/popup.gif" />
 
